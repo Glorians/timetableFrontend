@@ -1,0 +1,59 @@
+
+.mainBoxSubject {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.lineSubject{
+    display: block;
+    width: 100%;
+    height: 2px;
+    background: #000;
+}
+
+.boxSubject{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 5px 0;
+}
+
+.timeBoxSubject{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.timeBoxSubject > h6 {
+    font-family: Oswald, serif;
+    font-size: 18px;
+}
+
+.nameBoxSubject{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.nameBoxSubject > h5 {
+    font-family: Oswald, serif;
+    font-size: 22px;
+}
+
+.roomBoxSubject{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.roomBoxSubject > span {
+    font-family: Oswald, serif;
+    font-size: 20px;
+}

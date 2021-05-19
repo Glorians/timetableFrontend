@@ -1,0 +1,41 @@
+header {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.mainBoxHeader{
+    display: flex;
+    width: 100%;
+    height: 10vh;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mainBoxHeader > h1 {
+    font-family: Oswald, sans-serif;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+.mainBoxHeader > h3 {
+    font-family: Oswald, sans-serif;
+    font-size: 20px;
+}
+
+.mainBoxHeader > button {
+    font-family: Oswald, sans-serif;
+    font-size: 20px;
+    background: transparent;
+    border: 0;
+    cursor: pointer;
+}
+
+.lineHeader{
+    display: block;
+    width: 100%;
+    height: 1px;
+    background: #000;
+}
